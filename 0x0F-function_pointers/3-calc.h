@@ -1,6 +1,6 @@
 
-#ifndef _HEADER_
-#define _HEADER_
+#ifndef _CALC_H_
+#define _CALC_H_
 
 /**
  * struct op - Struct op
@@ -10,8 +10,8 @@
  */
 typedef struct op
 {
-    char *op;
-    int (*f)(int a, int b);
+char *op;
+int (*f)(int a, int b);
 } op_t;
 
 int op_add(int a, int b);
